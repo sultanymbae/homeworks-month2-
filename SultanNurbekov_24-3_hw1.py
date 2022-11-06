@@ -1,11 +1,12 @@
 class Hero:
+    head = 1
+    ability = True
     def __init__(self, name, nickname, hp, damage):
         self.name = name
         self.nickname = nickname
         self.hp = hp
         self.damage = damage
-        self.head = 1
-        self.ability = True
+        
 
     def heal(self):
         self.hp += 100
